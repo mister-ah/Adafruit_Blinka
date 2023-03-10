@@ -219,6 +219,9 @@ elif board_id == ap_board.PINEH64:
 
 elif board_id == ap_board.SOPINE:
     from adafruit_blinka.board.soPine import *
+    
+elif board_id == ap_board.QUARTZ64_MODEL_B:
+    from adafruit_blinka.board.quartz64_model_b import *
 
 elif board_id == ap_board.CLOCKWORK_CPI3:
     from adafruit_blinka.board.clockworkcpi3 import *
